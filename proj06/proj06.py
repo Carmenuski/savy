@@ -90,7 +90,7 @@ while list != list1:
     else:
         print "Correct!"
     if limit == 0:
-        print "You ran out of guesses. The game has ended.The word was", random_word
+        print "You ran out of guesses. The game has ended.The word was", random_word, ". The hangman has died."
         break
 if list == list1:
     print "Congratulations!You got the word!"
